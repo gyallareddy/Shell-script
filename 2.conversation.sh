@@ -1,5 +1,6 @@
 #!/bin/bash
-
-echo "suresh: hi ramesh what are you doing"
-echo "ramesh: hi suresh am doing my work"
-echo "suresh: good to hear that"
+a = ramesh
+b = suresh
+echo "$a: hi $a what are you doing"
+echo "$b: hi $b am doing my work"
+echo "$a: good to hear that"
