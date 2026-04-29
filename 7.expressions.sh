@@ -1,8 +1,8 @@
 #!/bin/bash
 
-number=$
+number=$1
 
-if [ $number < 5 ] ; then
+if [ $number -lt 10 ] ; then
     echo number is less
 else
     echo number is high
