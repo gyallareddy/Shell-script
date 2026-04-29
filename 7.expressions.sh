@@ -11,7 +11,7 @@ fi
 # -gt greater than
 # -eq equals to 
 # -ne not equal
-if [ 1 -gt 10 ]; then 
+if [ $number -gt 10 ]; then 
     echo "given number is higher than the value"
 else
     echo "given number is less"
